@@ -12,6 +12,7 @@ class SecondViewController: UIViewController {
     
     var shape = Shape(width: 11, height: 12)
     var ground = Ground(width: 35, height: 75)
+    var famousCountry: Countries = .US
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +21,7 @@ class SecondViewController: UIViewController {
     @IBAction func setWidth(_ sender: Any) {
         shape.width = 12000
         ground.width = 300
+        famousCountry = .UK
         
         let shapeWidth = shape.width
         let shapeWidthInString = "Shape Width is " + String(shapeWidth)
@@ -27,7 +29,7 @@ class SecondViewController: UIViewController {
         let groundWidth = ground.width
         let groundWidthInString = " Ground Width is " + String(groundWidth)
         
-        widthLabel.text = "second view " + shapeWidthInString + groundWidthInString
+        widthLabel.text = "second view " + shapeWidthInString + groundWidthInString + " county \(famousCountry)"
         
         
     }

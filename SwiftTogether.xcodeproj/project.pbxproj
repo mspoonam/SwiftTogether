@@ -19,6 +19,7 @@
 		CA76DA602999DCCA00DCC103 /* Class And Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76DA5F2999DCCA00DCC103 /* Class And Structures.swift */; };
 		CA76DA622999DE9D00DCC103 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76DA612999DE9D00DCC103 /* SecondViewController.swift */; };
 		CA76DA642999E03300DCC103 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76DA632999E03300DCC103 /* Shape.swift */; };
+		CA76DA662999FA1F00DCC103 /* Enumerations .swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76DA652999FA1F00DCC103 /* Enumerations .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		CA76DA5F2999DCCA00DCC103 /* Class And Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Class And Structures.swift"; sourceTree = "<group>"; };
 		CA76DA612999DE9D00DCC103 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CA76DA632999E03300DCC103 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		CA76DA652999FA1F00DCC103 /* Enumerations .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enumerations .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		CA76DA2E2999DB8300DCC103 /* SwiftTogether */ = {
 			isa = PBXGroup;
 			children = (
+				CA76DA652999FA1F00DCC103 /* Enumerations .swift */,
 				CA76DA632999E03300DCC103 /* Shape.swift */,
 				CA76DA2F2999DB8300DCC103 /* AppDelegate.swift */,
 				CA76DA312999DB8300DCC103 /* SceneDelegate.swift */,
@@ -273,6 +276,7 @@
 				CA76DA622999DE9D00DCC103 /* SecondViewController.swift in Sources */,
 				CA76DA642999E03300DCC103 /* Shape.swift in Sources */,
 				CA76DA322999DB8300DCC103 /* SceneDelegate.swift in Sources */,
+				CA76DA662999FA1F00DCC103 /* Enumerations .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
